@@ -7,42 +7,6 @@ const btn = document.querySelector('.contact-form button');
 const bannerAlert = document.querySelector('#banner-alert');
 const bannerMessage = document.querySelector('.banner-message');
 
-/*
-function showContact() {
-
-    if (!firstName.value) {
-        firstName.classList.add('error-class');
-        return;
-    }
-    firstName.classList.remove('error-class');
-    //
-    if (!lastName.value) {
-        lastName.classList.add('error-class');
-        return;
-    }
-    lastName.classList.remove('error-class');
-    //
-    if (!message.value) {
-        message.classList.add('error-class');
-        return;
-    }
-    message.classList.remove('error-class');
-    bannerAlert.classList.remove('hidden');
-    bannerMessage.textContent = `Thank you for contacting us, ${firstName.value}`
-    console.log(`Name: ${firstName.value} ${lastName.value}\nMessage: ${message.value}`);
-    firstName.value = '';
-    lastName.value = '';
-    message.value = '';
-}
-btn.addEventListener('click', (e) => {
-    e.preventDefault();
-    return showContact();
-
-})
-document.querySelector('.close').addEventListener('click', () => {
-  bannerAlert.classList.add('hidden');
-});
-*/
 
 function validateField(field) {
     if (!field.value) {
